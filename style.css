@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: black;
+}
+
+html {
+    width: fit-content;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+
+body {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70dvh;
+    margin-bottom:50px ;
+}
+
+.header {
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+.navbar{
+    margin-left: 60px;
+}
+
+.navbar,ul,#nav{
+    border: 2px solid transparent;
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#nav{
+    color: rgb(255, 74, 74);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#nav:hover{
+    border: 1px solid cyan;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.nav {
+    text-decoration: none;
+    color: rgb(255, 74, 74);
+
+}
+
+.logo {
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(255, 74, 74);
+}
+
+.myimg {
+    height: 550px;
+    width: 450px;
+    border-radius: 10%;
+    border: 5px solid cyan;
+    margin-left: 100px;
+    margin-bottom: 200px;
+
+}
+
+    
+.myimg2 {
+    height: 450px;
+    width: 450px;
+    border-radius: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.detail {
+    margin-top: 20px;
+    color: cyan;
+}
+
+.section1 {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    float:left;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+   
+}
+
+#media {
+    color: rgb(255, 74, 74);
+    font-size: 30px;
+    margin-left: 10px;
+    background-color:transparent
+}
+
+#media >.fa-brands:hover{
+    color: cyan;
+    font-size: 40px;
+}
+
+.aboutin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float:left;
+    margin-right: 20px;
+    background-color: black;
+    color: rgb(255, 74, 74);
+    left: 0;
+}
+.abouttext{
+    margin-left: 100px;
+}
+
+.About{
+    position: relative;
+    color:cyan;
+    height:110dvh;
+}
+
+h3{
+    color: cyan;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius:10px; 
+    background-color: cyan;
+    box-shadow: -10px 10px -10px 10px cyan,
+    -10px 10px -10px 10px cyan,
+    -10px 10px -10px 10px cyan,
+    -10px 10px -10px 10px cyan;
+}
+.p{
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 74, 74);
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 100px;
+
+}
+
+.Skillstable{
+    background-color: aliceblue;
+    height: 600px;
+    width: 600px;
+    border: 5px solid cyan;
+    border-radius: 10px;
+}
+
+.Skills{
+    position: relative;
+    height: 110dvh;;
+}
+
+#skillsdata{
+    font-size: 50px;
+}
+
+#idss{
+    color:cyan;
+    position: relative;
+    flex-direction: row;
+    margin-left: 100px;
+    list-style: none;
+}
+
+.progress{
+    /* left:0; */
+    color: aqua;
+    background-color: aqua;
+    width:700px;
+}
+
+.project{
+    position: relative;
+    height: 110dvh;
+}
+
+/* project */
+.projectss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calulator{
+    border: 5px solid cyan;
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+    float: right;
+    margin: 50px;
+}
+
+.contact{
+    width: 100%;
+    position: relative;
+    height: 100dvh;
+    
+}
+
+.con{
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.footer{
+    background-color:cyan;
+    margin-top: 100px;
+}
